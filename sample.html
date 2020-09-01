@@ -8,8 +8,11 @@
         rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Vincent's Case</title>
+    
+    
 </head>
 <body>
+    
     <div class="main">
         <div>
           <h1 style="color: rgba(255, 0, 234, 0.392);">This is Vincent</h1>
@@ -35,7 +38,26 @@
             <p id="click";"> <em>click his picture to find out more</em></p>
 
         </div>
-        
+       <div> <audio id="myAudio" controls>
+               <source src="sooc.mp3" type="audio/mpeg">
+               Your browser does not support the audio element.
+           </audio><br>
+
+           <button onload="enableAutoplay()" type="button">Enable 
+       </div>
+       
     </div>
+
 </body>
+    <script>
+        var x = document.getElementById("myAudio");
+
+        function enableAutoplay() {
+            x.autoplay = true;
+            x.load();
+        }
+
+        onload = enableAutoplay()
+    </script>
+
 </html>
