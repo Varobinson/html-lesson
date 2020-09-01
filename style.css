@@ -1,9 +1,31 @@
 *{
     font-family: 'Londrina Solid',
     cursive;
+    background-color: cadetblue;
+    margin: 0;
+    display: flexbox;
 }
 
 #click{
-    color: blue;
+    color: rgb(53, 122, 42);
     font-weight: 400;
 }
+
+.main{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 30px;
+    
+}
+
+.middle{
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
+ h1{
+      margin: auto;
+      width: 35%;
+      padding: 10px;
+ }
